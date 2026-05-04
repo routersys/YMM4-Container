@@ -54,7 +54,6 @@ YukkuriMovieMaker4（YMM4）上で動作する、**複数の映像エフェク�
 | OS | Windows 10 / 11 (64bit) |
 | YukkuriMovieMaker4 | 最新版を推奨 |
 | ランタイム | .NET 10.0 |
-| GPU | Direct2D 対応 GPU |
  
 ---
  
