@@ -72,6 +72,7 @@
 <data name="Menu_Copy" xml:space="preserve"><value>نسخ</value></data>
 <data name="Menu_Paste" xml:space="preserve"><value>لصق</value></data>
 <data name="Menu_Duplicate" xml:space="preserve"><value>تكرار</value></data>
+<data name="Menu_Rename" xml:space="preserve"><value>إعادة التسمية</value></data>
 <data name="Menu_Stash" xml:space="preserve"><value>مخبأ</value></data>
 <data name="Menu_Stashes" xml:space="preserve"><value>مخبأ</value></data>
 <data name="Menu_RestoreStashName" xml:space="preserve"><value>مسترجع من المخبأ</value></data>

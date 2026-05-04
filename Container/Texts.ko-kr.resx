@@ -72,6 +72,7 @@
 <data name="Menu_Copy" xml:space="preserve"><value>복사</value></data>
 <data name="Menu_Paste" xml:space="preserve"><value>붙여넣기</value></data>
 <data name="Menu_Duplicate" xml:space="preserve"><value>복제</value></data>
+<data name="Menu_Rename" xml:space="preserve"><value>이름 변경</value></data>
 <data name="Menu_Stash" xml:space="preserve"><value>대피</value></data>
 <data name="Menu_Stashes" xml:space="preserve"><value>대피 항목</value></data>
 <data name="Menu_RestoreStashName" xml:space="preserve"><value>대피소에서 복원됨</value></data>

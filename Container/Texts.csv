@@ -13,6 +13,7 @@ VideoEffect_Tag_Container,,コンテナ,Container,容器,容器,컨테이너,Con
 Menu_Copy,,コピー,Copy,复制,複製,복사,Copiar,نسخ,Salin,
 Menu_Paste,,貼り付け,Paste,粘贴,貼上,붙여넣기,Pegar,لصق,Tempel,
 Menu_Duplicate,,複製,Duplicate,复制,複製,복제,Duplicar,تكرار,Duplikat,
+Menu_Rename,,名前変更,Rename,重命名,重新命名,이름 변경,Renombrar,إعادة التسمية,Ganti Nama,
 Menu_Stash,,待避,Stash,暂存,暫存,대피,Guardar,مخبأ,Simpan,
 Menu_Stashes,,待避,Stashes,暂存项目,暫存項目,대피 항목,Elementos guardados,مخبأ,Item yang disimpan,
 Menu_RestoreStashName,,スタッシュから復元,Restored from Stash,从暂存恢复,從暫存還原,대피소에서 복원됨,Restaurado del alijo,مسترجع من المخبأ,Dipulihkan dari Simpanan,

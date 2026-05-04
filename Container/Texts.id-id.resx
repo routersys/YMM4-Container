@@ -72,6 +72,7 @@
 <data name="Menu_Copy" xml:space="preserve"><value>Salin</value></data>
 <data name="Menu_Paste" xml:space="preserve"><value>Tempel</value></data>
 <data name="Menu_Duplicate" xml:space="preserve"><value>Duplikat</value></data>
+<data name="Menu_Rename" xml:space="preserve"><value>Ganti Nama</value></data>
 <data name="Menu_Stash" xml:space="preserve"><value>Simpan</value></data>
 <data name="Menu_Stashes" xml:space="preserve"><value>Item yang disimpan</value></data>
 <data name="Menu_RestoreStashName" xml:space="preserve"><value>Dipulihkan dari Simpanan</value></data>

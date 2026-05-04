@@ -72,6 +72,7 @@
 <data name="Menu_Copy" xml:space="preserve"><value>复制</value></data>
 <data name="Menu_Paste" xml:space="preserve"><value>粘贴</value></data>
 <data name="Menu_Duplicate" xml:space="preserve"><value>复制</value></data>
+<data name="Menu_Rename" xml:space="preserve"><value>重命名</value></data>
 <data name="Menu_Stash" xml:space="preserve"><value>暂存</value></data>
 <data name="Menu_Stashes" xml:space="preserve"><value>暂存项目</value></data>
 <data name="Menu_RestoreStashName" xml:space="preserve"><value>从暂存恢复</value></data>
