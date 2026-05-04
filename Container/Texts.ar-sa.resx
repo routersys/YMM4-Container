@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>ar-sa</value></data>
+<data name="Container_DisplayName" xml:space="preserve"><value>حاوية</value></data>
+<data name="Container_ManagementGroup" xml:space="preserve"><value>إدارة الحاويات</value></data>
+<data name="Container_LabelFormat" xml:space="preserve"><value>{0} [{1}] ({2} تأثيرات)</value></data>
+<data name="EffectTab_FirstName" xml:space="preserve"><value>جديد</value></data>
+<data name="EffectTab_NumberedName" xml:space="preserve"><value>علامة تبويب {0}</value></data>
+<data name="EffectTab_CopyName" xml:space="preserve"><value>(نسخة)</value></data>
+<data name="EffectTab_Add" xml:space="preserve"><value>إضافة علامة تبويب</value></data>
+<data name="EffectTab_Remove" xml:space="preserve"><value>إزالة علامة تبويب</value></data>
+<data name="VideoEffect_Name" xml:space="preserve"><value>حاوية</value></data>
+<data name="VideoEffect_Tag_Container" xml:space="preserve"><value>حاوية</value></data>
+<data name="Menu_Copy" xml:space="preserve"><value>نسخ</value></data>
+<data name="Menu_Paste" xml:space="preserve"><value>لصق</value></data>
+<data name="Menu_Duplicate" xml:space="preserve"><value>تكرار</value></data>
+<data name="Menu_Stash" xml:space="preserve"><value>مخبأ</value></data>
+<data name="Menu_Stashes" xml:space="preserve"><value>مخبأ</value></data>
+<data name="Menu_RestoreStashName" xml:space="preserve"><value>مسترجع من المخبأ</value></data>
+<data name="Menu_StashNameFormat" xml:space="preserve"><value>على {0}: {1} (+{2} أخرى)</value></data>
+<data name="Menu_StashNameFormatSingle" xml:space="preserve"><value>على {0}: {1}</value></data>
+<data name="Menu_ClearStashes" xml:space="preserve"><value>مسح الكل</value></data>
+<data name="Menu_ClearStashesConfirm" xml:space="preserve"><value>هل أنت متأكد أنك تريد مسح جميع المخابئ؟</value></data>
+<data name="Menu_ExtractEffect" xml:space="preserve"><value>استخراج التأثير</value></data>
+<data name="Menu_Bookmark" xml:space="preserve"><value>إشارة مرجعية</value></data>
+<data name="Menu_Bookmarks" xml:space="preserve"><value>الإشارات المرجعية</value></data>
+<data name="Menu_Complete" xml:space="preserve"><value>مكتمل</value></data>
+<data name="Menu_Delete" xml:space="preserve"><value>حذف</value></data>
+<data name="Menu_ClearBookmarks" xml:space="preserve"><value>مسح كل الإشارات المرجعية</value></data>
+<data name="Menu_ClearBookmarksConfirm" xml:space="preserve"><value>هل أنت متأكد أنك تريد مسح كل الإشارات المرجعية؟</value></data>
+<data name="Menu_Create" xml:space="preserve"><value>إنشاء</value></data>
+<data name="Menu_Cancel" xml:space="preserve"><value>إلغاء</value></data>
+<data name="Message_EmptyEffectTab" xml:space="preserve"><value>لا يمكن وضع إشارة مرجعية على علامة تبويب فارغة</value></data>
+</root>

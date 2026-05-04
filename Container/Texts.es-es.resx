@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>es-es</value></data>
+<data name="Container_DisplayName" xml:space="preserve"><value>Contenedor</value></data>
+<data name="Container_ManagementGroup" xml:space="preserve"><value>Gestión de Contenedores</value></data>
+<data name="Container_LabelFormat" xml:space="preserve"><value>{0} [{1}] ({2} efectos)</value></data>
+<data name="EffectTab_FirstName" xml:space="preserve"><value>Nuevo</value></data>
+<data name="EffectTab_NumberedName" xml:space="preserve"><value>Pestaña {0}</value></data>
+<data name="EffectTab_CopyName" xml:space="preserve"><value>(Copia)</value></data>
+<data name="EffectTab_Add" xml:space="preserve"><value>Agregar pestaña</value></data>
+<data name="EffectTab_Remove" xml:space="preserve"><value>Eliminar pestaña</value></data>
+<data name="VideoEffect_Name" xml:space="preserve"><value>Contenedor</value></data>
+<data name="VideoEffect_Tag_Container" xml:space="preserve"><value>Contenedor</value></data>
+<data name="Menu_Copy" xml:space="preserve"><value>Copiar</value></data>
+<data name="Menu_Paste" xml:space="preserve"><value>Pegar</value></data>
+<data name="Menu_Duplicate" xml:space="preserve"><value>Duplicar</value></data>
+<data name="Menu_Stash" xml:space="preserve"><value>Guardar</value></data>
+<data name="Menu_Stashes" xml:space="preserve"><value>Elementos guardados</value></data>
+<data name="Menu_RestoreStashName" xml:space="preserve"><value>Restaurado del alijo</value></data>
+<data name="Menu_StashNameFormat" xml:space="preserve"><value>En {0}: {1} (+{2} otros)</value></data>
+<data name="Menu_StashNameFormatSingle" xml:space="preserve"><value>En {0}: {1}</value></data>
+<data name="Menu_ClearStashes" xml:space="preserve"><value>Borrar todo</value></data>
+<data name="Menu_ClearStashesConfirm" xml:space="preserve"><value>¿Está seguro de que desea borrar todos los elementos guardados?</value></data>
+<data name="Menu_ExtractEffect" xml:space="preserve"><value>Extraer efecto</value></data>
+<data name="Menu_Bookmark" xml:space="preserve"><value>Marcador</value></data>
+<data name="Menu_Bookmarks" xml:space="preserve"><value>Marcadores</value></data>
+<data name="Menu_Complete" xml:space="preserve"><value>Completar</value></data>
+<data name="Menu_Delete" xml:space="preserve"><value>Eliminar</value></data>
+<data name="Menu_ClearBookmarks" xml:space="preserve"><value>Borrar todos los marcadores</value></data>
+<data name="Menu_ClearBookmarksConfirm" xml:space="preserve"><value>¿Está seguro de que desea borrar todos los marcadores?</value></data>
+<data name="Menu_Create" xml:space="preserve"><value>Crear</value></data>
+<data name="Menu_Cancel" xml:space="preserve"><value>Cancelar</value></data>
+<data name="Message_EmptyEffectTab" xml:space="preserve"><value>No se puede marcar una pestaña vacía</value></data>
+</root>

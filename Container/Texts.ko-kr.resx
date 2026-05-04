@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CurrentCulture" xml:space="preserve"><value>ko-kr</value></data>
+<data name="Container_DisplayName" xml:space="preserve"><value>컨테이너</value></data>
+<data name="Container_ManagementGroup" xml:space="preserve"><value>컨테이너 관리</value></data>
+<data name="Container_LabelFormat" xml:space="preserve"><value>{0} [{1}] ({2}개)</value></data>
+<data name="EffectTab_FirstName" xml:space="preserve"><value>새 탭</value></data>
+<data name="EffectTab_NumberedName" xml:space="preserve"><value>탭 {0}</value></data>
+<data name="EffectTab_CopyName" xml:space="preserve"><value>(복사본)</value></data>
+<data name="EffectTab_Add" xml:space="preserve"><value>タブ 追加</value></data>
+<data name="EffectTab_Remove" xml:space="preserve"><value>タブ 削除</value></data>
+<data name="VideoEffect_Name" xml:space="preserve"><value>컨테이너</value></data>
+<data name="VideoEffect_Tag_Container" xml:space="preserve"><value>컨테이너</value></data>
+<data name="Menu_Copy" xml:space="preserve"><value>복사</value></data>
+<data name="Menu_Paste" xml:space="preserve"><value>붙여넣기</value></data>
+<data name="Menu_Duplicate" xml:space="preserve"><value>복제</value></data>
+<data name="Menu_Stash" xml:space="preserve"><value>대피</value></data>
+<data name="Menu_Stashes" xml:space="preserve"><value>대피 항목</value></data>
+<data name="Menu_RestoreStashName" xml:space="preserve"><value>대피소에서 복원됨</value></data>
+<data name="Menu_StashNameFormat" xml:space="preserve"><value>{0}에서: {1} (+{2} 기타)</value></data>
+<data name="Menu_StashNameFormatSingle" xml:space="preserve"><value>{0}에서: {1}</value></data>
+<data name="Menu_ClearStashes" xml:space="preserve"><value>모두 지우기</value></data>
+<data name="Menu_ClearStashesConfirm" xml:space="preserve"><value>모든 대피를 삭제하시겠습니까?</value></data>
+<data name="Menu_ExtractEffect" xml:space="preserve"><value>효과 추출</value></data>
+<data name="Menu_Bookmark" xml:space="preserve"><value>북마크</value></data>
+<data name="Menu_Bookmarks" xml:space="preserve"><value>북마크</value></data>
+<data name="Menu_Complete" xml:space="preserve"><value>완료</value></data>
+<data name="Menu_Delete" xml:space="preserve"><value>삭제</value></data>
+<data name="Menu_ClearBookmarks" xml:space="preserve"><value>모든 북마크 삭제</value></data>
+<data name="Menu_ClearBookmarksConfirm" xml:space="preserve"><value>모든 북마크를 삭제하시겠습니까?</value></data>
+<data name="Menu_Create" xml:space="preserve"><value>만들기</value></data>
+<data name="Menu_Cancel" xml:space="preserve"><value>취소</value></data>
+<data name="Message_EmptyEffectTab" xml:space="preserve"><value>빈 탭은 북마크할 수 없습니다</value></data>
+</root>
