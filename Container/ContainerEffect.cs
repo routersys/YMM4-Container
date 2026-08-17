@@ -16,7 +16,8 @@ public sealed class ContainerEffect : VideoEffectBase
         get
         {
             var count = Effects.Count;
-            return string.Format(Texts.Container_LabelFormat, Texts.Container_DisplayName, SelectedTabName ?? string.Empty, count);
+            var tabName = string.IsNullOrEmpty(SelectedTabName) ? Texts.EffectTab_FirstName : SelectedTabName;
+            return string.Format(Texts.Container_LabelFormat, Texts.Container_DisplayName, tabName, count);
         }
     }
 

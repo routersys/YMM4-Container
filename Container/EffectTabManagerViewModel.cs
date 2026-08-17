@@ -10,6 +10,7 @@ internal sealed class EffectTabManagerViewModel : Bindable, IDisposable
     private readonly ContainerEffect _effect;
     private const string ClipboardFormat = "Container.EffectTab";
     private bool _isSelfUpdating;
+    private bool _isLoadingTabs;
 
     public ObservableCollection<EffectTabItemViewModel> Tabs { get; } = new();
 
@@ -19,6 +20,7 @@ internal sealed class EffectTabManagerViewModel : Bindable, IDisposable
         get => _selectedTab;
         set
         {
+            if (_isLoadingTabs) return;
             if (_selectedTab == value) return;
 
             if (_selectedTab != null)
@@ -158,21 +160,36 @@ internal sealed class EffectTabManagerViewModel : Bindable, IDisposable
     private void LoadTabs()
     {
         var state = EffectTabStateService.ResolveEffectState(_effect.EffectTabsJson, _effect.Effects, Texts.EffectTab_FirstName);
-        Tabs.Clear();
-        foreach (var tab in state.Tabs)
-            Tabs.Add(new EffectTabItemViewModel(tab));
 
-        UpdateIndices();
+        using (BeginLoad())
+        {
+            Tabs.Clear();
+            foreach (var tab in state.Tabs)
+                Tabs.Add(new EffectTabItemViewModel(tab));
 
-        SelectedTab = state.SelectedTabId.HasValue
-            ? Tabs.FirstOrDefault(t => t.Id == state.SelectedTabId.Value) ?? Tabs.FirstOrDefault()
-            : Tabs.FirstOrDefault();
+            UpdateIndices();
+
+            SelectTabWithoutApplying(state.SelectedTabId.HasValue
+                ? Tabs.FirstOrDefault(t => t.Id == state.SelectedTabId.Value) ?? Tabs.FirstOrDefault()
+                : Tabs.FirstOrDefault());
+        }
     }
 
     private void SelectTabInternal(EffectTabItemViewModel? tab)
     {
         _selectedTab = tab;
         ForEachEffect(e => e.SelectedTabName = tab?.Name);
+        NotifySelectedTabChanged();
+    }
+
+    private void SelectTabWithoutApplying(EffectTabItemViewModel? tab)
+    {
+        _selectedTab = tab;
+        NotifySelectedTabChanged();
+    }
+
+    private void NotifySelectedTabChanged()
+    {
         OnPropertyChanged(nameof(SelectedTab));
         OnPropertyChanged(nameof(IsTabSelected));
     }
@@ -615,6 +632,8 @@ internal sealed class EffectTabManagerViewModel : Bindable, IDisposable
 
     private IDisposable BeginSelfUpdate() => new StateScope(this, false);
 
+    private IDisposable BeginLoad() => new LoadScope(this);
+
     private sealed class StateScope : IDisposable
     {
         private readonly EffectTabManagerViewModel _vm;
@@ -639,6 +658,24 @@ internal sealed class EffectTabManagerViewModel : Bindable, IDisposable
                 _vm.EndEdit?.Invoke(_vm, EventArgs.Empty);
 
             _vm._isSelfUpdating = _wasSelfUpdating;
+        }
+    }
+
+    private sealed class LoadScope : IDisposable
+    {
+        private readonly EffectTabManagerViewModel _vm;
+        private readonly bool _wasLoadingTabs;
+
+        public LoadScope(EffectTabManagerViewModel vm)
+        {
+            _vm = vm;
+            _wasLoadingTabs = _vm._isLoadingTabs;
+            _vm._isLoadingTabs = true;
+        }
+
+        public void Dispose()
+        {
+            _vm._isLoadingTabs = _wasLoadingTabs;
         }
     }
 
